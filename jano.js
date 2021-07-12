@@ -1,14 +1,14 @@
 
 const Discord = require("discord.js");
 const myid = ['id xot'] ////////////////////prefix wara 
-const jano = new Discord.Client();
-const jano2 = new Discord.Client();
-const jano3 = new Discord.Client();
-const jano4 = new Discord.Client();
-const jano5 = new Discord.Client();
-const jano6 = new Discord.Client();
-const jano7 = new Discord.Client();
-const jano8 = new Discord.Client();
+const lara = new Discord.Client();
+const lana2 = new Discord.Client();
+const marya3 = new Discord.Client();
+const hemn4 = new Discord.Client();
+const hama5 = new Discord.Client();
+const hanar6 = new Discord.Client();
+const heshu7 = new Discord.Client();
+const hela8 = new Discord.Client();
 const jano9 = new Discord.Client();
 const jano10 = new Discord.Client();
 const jano11 = new Discord.Client();
@@ -215,7 +215,7 @@ const jano200 = new Discord.Client();
 
 
 ////////
-jano.on("message", message => {
+lara.on("message", message => {
   if (!message.guild) return;
   if (message.content === "wara") {
     if (!(message.author.id)) return;
@@ -223,7 +223,7 @@ jano.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -232,7 +232,7 @@ jano.on("message", message => {
   }
 });
 
-jano2.on("message", message => {
+lana2.on("message", message => {
   if (!message.guild) return;
   if (message.content === "wara") {
     if (!(message.author.id)) return;
@@ -240,7 +240,7 @@ jano2.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -248,7 +248,7 @@ jano2.on("message", message => {
     }
   }
 });
-jano3.on("message", message => {
+marya3.on("message", message => {
   if (!message.guild) return;
   if (message.content === "wara") {
     if (!(message.author.id)) return;
@@ -256,7 +256,7 @@ jano3.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -264,7 +264,7 @@ jano3.on("message", message => {
     }
   }
 });
-jano4.on("message", message => {
+hemn4.on("message", message => {
   if (!message.guild) return;
   if (message.content === "wara") {
     if (!(message.author.id)) return;
@@ -272,7 +272,7 @@ jano4.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -280,7 +280,7 @@ jano4.on("message", message => {
     }
   }
 });
-jano5.on("message", message => {
+hama5.on("message", message => {
   if (!message.guild) return;
   if (message.content === "wara") {
     if (!(message.author.id)) return;
@@ -288,24 +288,7 @@ jano5.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
-        })
-        .catch(console.log);
-    } else {
-      message.reply("**bro vc**");
-    }
-  }
-});
-
-jano6.on("message", message => {
-  if (!message.guild) return;
-  if (message.content === "wara") {
-    if (!(message.author.id)) return;
-    if (message.member.voiceChannel) {
-      message.member.voiceChannel
-        .join()
-        .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -314,7 +297,7 @@ jano6.on("message", message => {
   }
 });
 
-jano7.on("message", message => {
+hanar6.on("message", message => {
   if (!message.guild) return;
   if (message.content === "wara") {
     if (!(message.author.id)) return;
@@ -322,7 +305,7 @@ jano7.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -330,7 +313,8 @@ jano7.on("message", message => {
     }
   }
 });
-jano8.on("message", message => {
+
+heshu7.on("message", message => {
   if (!message.guild) return;
   if (message.content === "wara") {
     if (!(message.author.id)) return;
@@ -338,7 +322,23 @@ jano8.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
+        })
+        .catch(console.log);
+    } else {
+      message.reply("**bro vc**");
+    }
+  }
+});
+hela8.on("message", message => {
+  if (!message.guild) return;
+  if (message.content === "wara") {
+    if (!(message.author.id)) return;
+    if (message.member.voiceChannel) {
+      message.member.voiceChannel
+        .join()
+        .then(connection => {
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -355,7 +355,7 @@ jano9.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -371,7 +371,7 @@ jano10.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -387,7 +387,7 @@ jano11.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -403,7 +403,7 @@ jano12.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -419,7 +419,7 @@ jano13.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -435,7 +435,7 @@ jano14.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -452,7 +452,7 @@ jano15.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -468,7 +468,7 @@ jano16.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -484,7 +484,7 @@ jano17.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -500,7 +500,7 @@ jano18.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -517,7 +517,7 @@ jano19.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -533,7 +533,7 @@ jano20.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -549,7 +549,7 @@ jano21.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -565,7 +565,7 @@ jano22.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -581,7 +581,7 @@ jano23.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -597,7 +597,7 @@ jano24.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -614,7 +614,7 @@ jano25.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -630,7 +630,7 @@ jano26.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -646,7 +646,7 @@ jano27.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -662,7 +662,7 @@ jano28.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -679,7 +679,7 @@ jano29.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -695,7 +695,7 @@ jano30.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -711,7 +711,7 @@ jano31.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -727,7 +727,7 @@ jano32.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -744,7 +744,7 @@ jano33.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -760,7 +760,7 @@ jano34.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -776,7 +776,7 @@ jano35.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -792,7 +792,7 @@ jano36.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -808,7 +808,7 @@ jano37.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -824,7 +824,7 @@ jano38.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -840,7 +840,7 @@ jano39.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -857,7 +857,7 @@ jano40.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -873,7 +873,7 @@ jano41.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -889,7 +889,7 @@ jano42.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -905,7 +905,7 @@ jano43.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -922,7 +922,7 @@ jano44.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -938,7 +938,7 @@ jano45.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -954,7 +954,7 @@ jano46.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -970,7 +970,7 @@ jano47.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -986,7 +986,7 @@ jano48.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1003,7 +1003,7 @@ jano49.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1019,7 +1019,7 @@ jano50.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1035,7 +1035,7 @@ jano51.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1052,7 +1052,7 @@ jano52.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1068,7 +1068,7 @@ jano53.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1084,7 +1084,7 @@ jano54.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1100,7 +1100,7 @@ jano55.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1116,7 +1116,7 @@ jano56.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1133,7 +1133,7 @@ jano57.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1149,7 +1149,7 @@ jano58.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1166,7 +1166,7 @@ jano59.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1182,7 +1182,7 @@ jano60.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1198,7 +1198,7 @@ jano61.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1215,7 +1215,7 @@ jano62.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1231,7 +1231,7 @@ jano63.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1247,7 +1247,7 @@ jano64.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1263,7 +1263,7 @@ jano65.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1279,7 +1279,7 @@ jano66.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1296,7 +1296,7 @@ jano67.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1312,7 +1312,7 @@ jano68.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1328,7 +1328,7 @@ jano69.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1345,7 +1345,7 @@ jano70.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1361,7 +1361,7 @@ jano71.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1377,7 +1377,7 @@ jano72.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1393,7 +1393,7 @@ jano73.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1409,7 +1409,7 @@ jano74.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1425,7 +1425,7 @@ jano75.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1441,7 +1441,7 @@ jano76.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1457,7 +1457,7 @@ jano77.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1473,7 +1473,7 @@ jano78.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1490,7 +1490,7 @@ jano79.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1506,7 +1506,7 @@ jano80.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1522,7 +1522,7 @@ jano81.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1539,7 +1539,7 @@ jano82.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1555,7 +1555,7 @@ jano83.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1571,7 +1571,7 @@ jano84.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1587,7 +1587,7 @@ jano85.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1603,7 +1603,7 @@ jano86.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1620,7 +1620,7 @@ jano87.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1636,7 +1636,7 @@ jano88.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1653,7 +1653,7 @@ jano89.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1669,7 +1669,7 @@ jano90.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1685,7 +1685,7 @@ jano91.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1701,7 +1701,7 @@ jano92.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1717,7 +1717,7 @@ jano93.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1734,7 +1734,7 @@ jano94.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1751,7 +1751,7 @@ jano95.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1767,7 +1767,7 @@ jano96.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1783,7 +1783,7 @@ jano97.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1799,7 +1799,7 @@ jano98.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1815,7 +1815,7 @@ jano99.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1832,7 +1832,7 @@ jano100.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1848,7 +1848,7 @@ jano101.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1864,7 +1864,7 @@ jano102.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1880,7 +1880,7 @@ jano.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1897,7 +1897,7 @@ jano103.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1913,7 +1913,7 @@ jano104.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1929,7 +1929,7 @@ jano105.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1946,7 +1946,7 @@ jano106.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1962,7 +1962,7 @@ jano107.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1978,7 +1978,7 @@ jano108.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -1994,7 +1994,7 @@ jano109.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2010,7 +2010,7 @@ jano110.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2027,7 +2027,7 @@ jano111.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2043,7 +2043,7 @@ jano112.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2060,7 +2060,7 @@ jano113.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2076,7 +2076,7 @@ jano114.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2092,7 +2092,7 @@ jano115.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2108,7 +2108,7 @@ jano116.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2124,7 +2124,7 @@ jano117.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2140,7 +2140,7 @@ jano118.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2157,7 +2157,7 @@ jano119.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2173,7 +2173,7 @@ jano120.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2189,7 +2189,7 @@ jano121.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2205,7 +2205,7 @@ jano122.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2221,7 +2221,7 @@ jano123.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar*");
+          message.reply("**basha dlm*");
         })
         .catch(console.log);
     } else {
@@ -2238,7 +2238,7 @@ jano124.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2254,7 +2254,7 @@ jano125.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2270,7 +2270,7 @@ jano126.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2286,7 +2286,7 @@ jano127.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2303,7 +2303,7 @@ jano128.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2319,7 +2319,7 @@ jano129.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2352,7 +2352,7 @@ jano131.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2368,7 +2368,7 @@ jano132.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2384,7 +2384,7 @@ jano133.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2401,7 +2401,7 @@ jano134.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2417,7 +2417,7 @@ jano135.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2433,7 +2433,7 @@ jano136.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2449,7 +2449,7 @@ jano137.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2466,7 +2466,7 @@ jano138.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2482,7 +2482,7 @@ jano139.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2498,7 +2498,7 @@ jano140.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2514,7 +2514,7 @@ jano141.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2530,7 +2530,7 @@ jano142.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2547,7 +2547,7 @@ jano143.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2563,7 +2563,7 @@ jano144.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2579,7 +2579,7 @@ jano145.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2595,7 +2595,7 @@ jano146.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2611,7 +2611,7 @@ jano147.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2627,7 +2627,7 @@ jano148.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2643,7 +2643,7 @@ jano149.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2660,7 +2660,7 @@ jano150.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2676,7 +2676,7 @@ jano151.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2692,7 +2692,7 @@ jano152.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2708,7 +2708,7 @@ jano153.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2726,7 +2726,7 @@ jano154.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2742,7 +2742,7 @@ jano155.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2759,7 +2759,7 @@ jano156.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2775,7 +2775,7 @@ jano157.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2791,7 +2791,7 @@ jano158.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2807,7 +2807,7 @@ jano159.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2823,7 +2823,7 @@ jano160.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2839,7 +2839,7 @@ jano161.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2855,7 +2855,7 @@ jano162.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2871,7 +2871,7 @@ jano163.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2887,7 +2887,7 @@ jano164.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2903,7 +2903,7 @@ jano165.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2919,7 +2919,7 @@ jano166.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2935,7 +2935,7 @@ jano167.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2951,7 +2951,7 @@ jano168.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2967,7 +2967,7 @@ jano169.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2983,7 +2983,7 @@ jano170.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -2999,7 +2999,7 @@ jano171.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3015,7 +3015,7 @@ jano166.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3031,7 +3031,7 @@ jano167.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3047,7 +3047,7 @@ jano168.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3063,7 +3063,7 @@ jano169.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3079,7 +3079,7 @@ jano170.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3095,7 +3095,7 @@ jano171.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3111,7 +3111,7 @@ jano172.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3127,7 +3127,7 @@ jano173.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3143,7 +3143,7 @@ jano174.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3159,7 +3159,7 @@ jano175.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3175,7 +3175,7 @@ jano176.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3191,7 +3191,7 @@ jano177.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3207,7 +3207,7 @@ jano178.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3223,7 +3223,7 @@ jano179.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3239,7 +3239,7 @@ jano180.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3255,7 +3255,7 @@ jano181.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3271,7 +3271,7 @@ jano182.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3287,7 +3287,7 @@ jano183.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3303,7 +3303,7 @@ jano184.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3320,7 +3320,7 @@ jano185.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3337,7 +3337,7 @@ jano186.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3354,7 +3354,7 @@ jano187.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3370,7 +3370,7 @@ jano188.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3386,7 +3386,7 @@ jano189.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3403,7 +3403,7 @@ jano190.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3419,7 +3419,7 @@ jano191.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3435,7 +3435,7 @@ jano192.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3451,7 +3451,7 @@ jano193.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3467,7 +3467,7 @@ jano194.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3483,7 +3483,7 @@ jano195.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3500,7 +3500,7 @@ jano196.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3516,7 +3516,7 @@ jano197.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3549,7 +3549,7 @@ jano199.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
@@ -3565,7 +3565,7 @@ jano200.on("message", message => {
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha dlm**");
         })
         .catch(console.log);
     } else {
